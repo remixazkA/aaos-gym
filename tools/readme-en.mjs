@@ -412,6 +412,7 @@ export function textoReadmeEn(d) {
       : `The long run with the audited code reached ${fecha(t.fin_previsto)}; this document covers all its days.`}`,
     "- Tasks that come from the seed's daily events are not yet linked to the documents of the tick-based economy: their references do not appear in the run's ERP or bank.",
     "- Ariamir's full connection to the apps, its permissions and its effects over a working day still have to be verified.",
+    "- A tool bench for Ariamir on the simulated days is under construction; it has no results yet.",
     "- A measurement campaign is still needed that compares working days with and without help and records usefulness, failures and compute cost.",
     "- A collaboration with a supercomputing centre is being considered to extend and repeat the experiments; it is a proposal, not a result.");
 

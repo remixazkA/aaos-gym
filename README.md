@@ -290,6 +290,7 @@ The figures in this document are counted by role, area and company, never by per
 - The code went through six rounds of independent audit and was closed except for a minor robustness detail when resuming, with no effect on the data. The long run with the audited code reached 31 January 2027; this document covers all its days.
 - Tasks that come from the seed's daily events are not yet linked to the documents of the tick-based economy: their references do not appear in the run's ERP or bank.
 - Ariamir's full connection to the apps, its permissions and its effects over a working day still have to be verified.
+- A tool bench for Ariamir on the simulated days is under construction; it has no results yet.
 - A measurement campaign is still needed that compares working days with and without help and records usefulness, failures and compute cost.
 - A collaboration with a supercomputing centre is being considered to extend and repeat the experiments; it is a proposal, not a result.
 
