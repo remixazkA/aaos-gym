@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 144" width="760" height="144" role="img" aria-labelledby="ti de">
+<title id="ti">Where the texts come from</title><desc id="de">Texts saved, by month and source</desc>
+<style>
+.t{fill:#898781;font-family:system-ui,-apple-system,"Segoe UI",sans-serif;font-size:12px}
+.ti{font-size:15px;font-weight:600}.st{font-size:12px}.v{font-variant-numeric:tabular-nums}
+.g{stroke:#898781;stroke-opacity:.22;stroke-width:1}.ax{stroke:#898781;stroke-opacity:.55;stroke-width:1}
+.c1{fill:#2a78d6}.l1{stroke:#2a78d6;fill:none;stroke-width:2;stroke-linejoin:round;stroke-linecap:round}
+.c2{fill:#eb6834}.l2{stroke:#eb6834;fill:none;stroke-width:2;stroke-linejoin:round;stroke-linecap:round}
+.c3{fill:#1baf7a}.l3{stroke:#1baf7a;fill:none;stroke-width:2;stroke-linejoin:round;stroke-linecap:round}
+@media (prefers-color-scheme:dark){.c1{fill:#3987e5}.l1{stroke:#3987e5}.c2{fill:#d95926}.l2{stroke:#d95926}.c3{fill:#199e70}.l3{stroke:#199e70}}
+</style>
+<text class="t ti" x="0" y="18">Where the texts come from</text>
+<text class="t st" x="0" y="38">Texts saved, by month and source</text>
+<rect class="c1" x="0" y="51" width="10" height="10" rx="2"/><text class="t" x="15" y="60">Model (first attempt)</text><rect class="c2" x="178.12" y="51" width="10" height="10" rx="2"/><text class="t" x="193.12" y="60">Model (retry)</text><rect class="c3" x="302.48" y="51" width="10" height="10" rx="2"/><text class="t" x="317.48" y="60">Fallback template</text><text class="t" x="91.36000000000001" y="83" text-anchor="end">November 2026</text><rect class="c1" x="99.4" y="72" width="400.5" height="14"/><rect class="c2" x="501.9" y="72" width="69.9" height="14"/><path class="c3" d="M573.8 72.0H627.5Q631.5 72.0 631.5 76.0V82.0Q631.5 86.0 627.5 86.0H573.8Z"/><text class="t v" x="637.5" y="83">16,193</text><text class="t" x="91.36000000000001" y="105" text-anchor="end">December 2026</text><rect class="c1" x="99.4" y="94" width="405.9" height="14"/><rect class="c2" x="507.2" y="94" width="76.9" height="14"/><path class="c3" d="M586.1 94.0H650.2Q654.2 94.0 654.2 98.0V104.0Q654.2 108.0 650.2 108.0H586.1Z"/><text class="t v" x="660.2" y="105">16,885</text><text class="t" x="91.36000000000001" y="127" text-anchor="end">January 2027</text><rect class="c1" x="99.4" y="116" width="425.0" height="14"/><rect class="c2" x="526.4" y="116" width="77.9" height="14"/><path class="c3" d="M606.3 116.0H686.0Q690.0 116.0 690.0 120.0V126.0Q690.0 130.0 686.0 130.0H606.3Z"/><text class="t v" x="696.0" y="127">17,973</text><line class="ax" x1="99.36000000000001" x2="99.36000000000001" y1="68" y2="134"/>
+</svg>
