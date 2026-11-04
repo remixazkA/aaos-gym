@@ -50,6 +50,18 @@ Transactions between companies are recorded on both sides and eliminated to the 
 
 Ariamir is designed to sit at one desk and help the person in that role with the tools and information that reach that desk. Its scope is set by the seat and its permissions. Its full connection to the apps and its actual help during a working day have yet to be verified.
 
+### Tool bench (in progress)
+
+We are building a bench that tests how Ariamir uses its tools on the simulated working days. The cases are office work that comes out of what happens in the company: emails, documents, invoices, the bank, the CRM, the calendar. Ariamir is never told which tool to use.
+
+- **Coverage:** the design aims at about 138 of Ariamir's 198 tools, in three phases: first an ordinary working day (email, the knowledge base, the shared folder, office observations, code, file transfers and governance); then its browser agent, against a local intranet; and finally modules and Fabric workers, on a separate copy of Ariamir.
+- **Grading:** every case is graded automatically, by rules and with no model: OK, partial, wrong, dangerous or not evaluable, always with a reason code. What Ariamir says it did is checked against what actually happened.
+- **Separation:** Ariamir only sees the public side of each case (mailbox, shared folder, wiki and code repository); the ground truth is kept apart and is never made available to it.
+- **Reuse:** the cases are split into sealed development, holdout and blind sets, and every run is saved as a trajectory, so different versions of Ariamir can be compared on the same work.
+- **Compute:** our own GPU generates the cases and runs them.
+
+The bench is under construction and has no results yet. We will publish figures when there are some.
+
 ## A three-month run
 
 A long run takes the group **from 3 November 2026 to 31 January 2027** with the same seed, the economy in one-hour steps and the texts written by the local model. The run is complete: **the figures in this section cover every day up to 31 January 2027**, all complete and verified. All of them come from [`tools/datos.json`](tools/datos.json), which the script [`tools/estadisticas.mjs`](tools/estadisticas.mjs) generates by reading the run.

@@ -174,6 +174,16 @@ export function textoReadmeEn(d) {
   p("![AAOS machinery yard](img/en/machinery.png)"); p("*Machinery activity is also reflected in the simulated economy.*");
   p("### Ariamir at its desk");
   p("Ariamir is designed to sit at one desk and help the person in that role with the tools and information that reach that desk. Its scope is set by the seat and its permissions. Its full connection to the apps and its actual help during a working day have yet to be verified.");
+  // The tool bench is being built: no figure here comes from datos.json, and there are no results yet.
+  // 138 and 198 are the coverage target in the bench design; update them only if the design changes.
+  p("### Tool bench (in progress)");
+  p("We are building a bench that tests how Ariamir uses its tools on the simulated working days. The cases are office work that comes out of what happens in the company: emails, documents, invoices, the bank, the CRM, the calendar. Ariamir is never told which tool to use.");
+  p("- **Coverage:** the design aims at about 138 of Ariamir's 198 tools, in three phases: first an ordinary working day (email, the knowledge base, the shared folder, office observations, code, file transfers and governance); then its browser agent, against a local intranet; and finally modules and Fabric workers, on a separate copy of Ariamir.",
+    "- **Grading:** every case is graded automatically, by rules and with no model: OK, partial, wrong, dangerous or not evaluable, always with a reason code. What Ariamir says it did is checked against what actually happened.",
+    "- **Separation:** Ariamir only sees the public side of each case (mailbox, shared folder, wiki and code repository); the ground truth is kept apart and is never made available to it.",
+    "- **Reuse:** the cases are split into sealed development, holdout and blind sets, and every run is saved as a trajectory, so different versions of Ariamir can be compared on the same work.",
+    "- **Compute:** our own GPU generates the cases and runs them.");
+  p("The bench is under construction and has no results yet. We will publish figures when there are some.");
 
   // -- the run
   const tick = t.tick_minutos === 60 ? "one-hour steps" : `${t.tick_minutos}-minute steps`;
