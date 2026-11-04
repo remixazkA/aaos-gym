@@ -48,6 +48,18 @@ Las operaciones entre sociedades se registran en ambas partes y se eliminan al c
 
 Ariamir se sitúa en un puesto y ayuda a su titular con las herramientas y la información que llegan a ese escritorio. Su alcance se define por el asiento y los permisos correspondientes. La conexión completa con las aplicaciones y su ayuda efectiva durante una jornada están pendientes de acreditación.
 
+### Banco de herramientas (en construcción)
+
+Estamos construyendo un banco que pone a prueba cómo usa Ariamir sus herramientas sobre las jornadas simuladas. Los casos son trabajo de oficina que sale de lo que pasa en la empresa: correos, documentos, facturas, banco, CRM, agenda. A Ariamir nunca se le dice qué herramienta usar.
+
+- **Cobertura:** el diseño apunta a unas 138 de las 198 herramientas de Ariamir, en tres fases: primero, un día normal (correo, base de conocimiento, carpeta compartida, observaciones de oficina, código, transferencias de ficheros y gobierno); después, su navegador agente, contra una intranet local; y por último, módulos y trabajadores de Fabric, en una copia aparte de Ariamir.
+- **Corrección:** cada caso se corrige solo, con reglas y sin modelo: OK, parcial, mal, peligroso o no evaluable, siempre con un código. Lo que Ariamir dice que hizo se cruza con lo que pasó de verdad.
+- **Separación:** Ariamir solo ve la parte pública de cada caso (buzón, carpeta compartida, wiki y repositorio de código); la verdad se guarda aparte y nunca se pone a su alcance.
+- **Reutilización:** los casos se reparten en particiones selladas de desarrollo, reserva y ciega, y cada pasada se guarda como trayectoria, para comparar versiones de Ariamir sobre el mismo trabajo.
+- **Cómputo:** nuestra propia GPU genera los casos y los corre.
+
+El banco está en construcción y aún no tiene resultados. Publicaremos cifras cuando las haya.
+
 ## Una tanda de tres meses
 
 Una tanda larga llevó al grupo **del 3 de noviembre de 2026 al 31 de enero de 2027** con la misma semilla, la economía en pasos de una hora y los textos redactados por el modelo local. La tanda está completa: estas cifras cubren todos sus días, completos y verificados. Salen de [`tools/datos.json`](tools/datos.json), que genera el guion [`tools/estadisticas.mjs`](tools/estadisticas.mjs) leyendo la tanda. El detalle y las gráficas están en el [README en inglés](README.md#a-three-month-run).
