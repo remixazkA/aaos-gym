@@ -1,4 +1,4 @@
-# AAOS — Empresa virtual de entrenamiento
+# AAOS GYM — Empresa virtual de entrenamiento
 
 AAOS es una empresa virtual **simulada** que sirve de gimnasio y banco de pruebas para Ariamir, un asistente de IA local y privado que utiliza herramientas. La empresa genera jornadas, documentos y operaciones para que Ariamir pueda ayudar desde un puesto concreto y ser evaluado en un entorno reproducible.
 
