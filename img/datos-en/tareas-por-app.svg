@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 216" width="760" height="216" role="img" aria-labelledby="ti de">
+<title id="ti">Tasks by app</title><desc id="de">51,051 tasks, 3 November 2026 to 31 January 2027</desc>
+<style>
+.t{fill:#898781;font-family:system-ui,-apple-system,"Segoe UI",sans-serif;font-size:12px}
+.ti{font-size:15px;font-weight:600}.st{font-size:12px}.v{font-variant-numeric:tabular-nums}
+.g{stroke:#898781;stroke-opacity:.22;stroke-width:1}.ax{stroke:#898781;stroke-opacity:.55;stroke-width:1}
+.c1{fill:#2a78d6}.l1{stroke:#2a78d6;fill:none;stroke-width:2;stroke-linejoin:round;stroke-linecap:round}
+.c2{fill:#eb6834}.l2{stroke:#eb6834;fill:none;stroke-width:2;stroke-linejoin:round;stroke-linecap:round}
+.c3{fill:#1baf7a}.l3{stroke:#1baf7a;fill:none;stroke-width:2;stroke-linejoin:round;stroke-linecap:round}
+@media (prefers-color-scheme:dark){.c1{fill:#3987e5}.l1{stroke:#3987e5}.c2{fill:#d95926}.l2{stroke:#d95926}.c3{fill:#199e70}.l3{stroke:#199e70}}
+</style>
+<text class="t ti" x="0" y="18">Tasks by app</text>
+<text class="t st" x="0" y="38">51,051 tasks, 3 November 2026 to 31 January 2027</text>
+<text class="t" x="84.64000000000001" y="67" text-anchor="end">Email</text><path class="c1" d="M92.6 56.0H686.0Q690.0 56.0 690.0 60.0V66.0Q690.0 70.0 686.0 70.0H92.6Z"/><text class="t v" x="696.0" y="67">18,700</text><text class="t" x="84.64000000000001" y="89" text-anchor="end">Documents</text><path class="c1" d="M92.6 78.0H549.3Q553.3 78.0 553.3 82.0V88.0Q553.3 92.0 549.3 92.0H92.6Z"/><text class="t v" x="559.3" y="89">14,422</text><text class="t" x="84.64000000000001" y="111" text-anchor="end">Spreadsheets</text><path class="c1" d="M92.6 100.0H293.7Q297.7 100.0 297.7 104.0V110.0Q297.7 114.0 293.7 114.0H92.6Z"/><text class="t v" x="303.7" y="111">6,418</text><text class="t" x="84.64000000000001" y="133" text-anchor="end">Phone</text><path class="c1" d="M92.6 122.0H218.3Q222.3 122.0 222.3 126.0V132.0Q222.3 136.0 218.3 136.0H92.6Z"/><text class="t v" x="228.3" y="133">4,058</text><text class="t" x="84.64000000000001" y="155" text-anchor="end">ERP</text><path class="c1" d="M92.6 144.0H192.6Q196.6 144.0 196.6 148.0V154.0Q196.6 158.0 192.6 158.0H92.6Z"/><text class="t v" x="202.6" y="155">3,254</text><text class="t" x="84.64000000000001" y="177" text-anchor="end">Bank</text><path class="c1" d="M92.6 166.0H161.1Q165.1 166.0 165.1 170.0V176.0Q165.1 180.0 161.1 180.0H92.6Z"/><text class="t v" x="171.1" y="177">2,269</text><text class="t" x="84.64000000000001" y="199" text-anchor="end">CRM</text><path class="c1" d="M92.6 188.0H150.3Q154.3 188.0 154.3 192.0V198.0Q154.3 202.0 150.3 202.0H92.6Z"/><text class="t v" x="160.3" y="199">1,930</text><line class="ax" x1="92.64000000000001" x2="92.64000000000001" y1="52" y2="206"/>
+</svg>
