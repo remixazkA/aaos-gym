@@ -1,0 +1,2630 @@
+{
+ "formato": "aaos-escaparate-datos/1",
+ "aviso": "Cifras de una tanda de la empresa SIMULADA; ambiente de entrenamiento, no una empresa real ni una medida de Ariamir.",
+ "tanda": {
+  "desde": "2026-11-03",
+  "hasta": "2027-01-31",
+  "dias_simulados": 90,
+  "dias_laborables": 61,
+  "dias_sin_trabajo": 29,
+  "fin_previsto": "2027-01-31",
+  "semilla": "7",
+  "tick_minutos": 60,
+  "huella_codigo": "84475016d410",
+  "avisos_lectura": []
+ },
+ "por_mes": {
+  "2026-11": {
+   "dias": 28,
+   "laborables": 20,
+   "tareas": 16193
+  },
+  "2026-12": {
+   "dias": 31,
+   "laborables": 20,
+   "tareas": 16885
+  },
+  "2027-01": {
+   "dias": 31,
+   "laborables": 21,
+   "tareas": 17973,
+   "hasta": "2027-01-31"
+  }
+ },
+ "tareas": {
+  "total": 51051,
+  "media_por_dia_laborable": 836.9,
+  "minimo_laborable": 429,
+  "maximo_laborable": 1033,
+  "personas_por_dia_laborable_media": 146,
+  "rutina": 41502,
+  "por_sucesos_del_dia": 4488,
+  "por_reaccion_a_la_economia": 5061,
+  "por_tipo": {
+   "doc_parte_trabajo": {
+    "etiqueta": "Parte de trabajo",
+    "tareas": 7619
+   },
+   "correo_interno_coordinacion": {
+    "etiqueta": "Correo interno de coordinación",
+    "tareas": 7608
+   },
+   "hoja_control_diario": {
+    "etiqueta": "Hoja de control diario",
+    "tareas": 5595
+   },
+   "tel_nota_llamada": {
+    "etiqueta": "Nota de llamada",
+    "tareas": 4058
+   },
+   "correo_al_jefe_avance": {
+    "etiqueta": "Correo de avance al responsable",
+    "tareas": 2730
+   },
+   "doc_nota_reunion": {
+    "etiqueta": "Nota de reunión",
+    "tareas": 2587
+   },
+   "correo_peticion_documento": {
+    "etiqueta": "Petición de un documento",
+    "tareas": 2101
+   },
+   "tesoreria_conciliar_banco": {
+    "etiqueta": "Conciliación bancaria (por tick)",
+    "tareas": 1911
+   },
+   "doc_procedimiento_borrador": {
+    "etiqueta": "Borrador de procedimiento",
+    "tareas": 1908
+   },
+   "correo_confirmacion_pedido": {
+    "etiqueta": "Confirmación de pedido mayorista",
+    "tareas": 1881
+   },
+   "erp_consulta_stock": {
+    "etiqueta": "Consulta de existencias",
+    "tareas": 1620
+   },
+   "correo_cliente_seguimiento": {
+    "etiqueta": "Seguimiento a un cliente",
+    "tareas": 1448
+   },
+   "sat_cerrar_y_facturar": {
+    "etiqueta": "Cierre y factura de aviso del SAT",
+    "tareas": 1374
+   },
+   "correo_aviso_sat_cliente": {
+    "etiqueta": "Acuse de aviso del SAT",
+    "tareas": 1216
+   },
+   "crm_actividad_nota": {
+    "etiqueta": "Nota de cliente (CRM)",
+    "tareas": 1078
+   },
+   "tesoreria_reclamar_cobro": {
+    "etiqueta": "Reclamación de cobro",
+    "tareas": 836
+   },
+   "hoja_cuadre": {
+    "etiqueta": "Hoja de cuadre",
+    "tareas": 823
+   },
+   "erp_nota_incidencia": {
+    "etiqueta": "Incidencia en el ERP",
+    "tareas": 789
+   },
+   "crm_actividad_llamada": {
+    "etiqueta": "Llamada con cliente (CRM)",
+    "tareas": 719
+   },
+   "doc_resumen_pedidos_web": {
+    "etiqueta": "Resumen de pedidos web",
+    "tareas": 604
+   },
+   "correo_proveedor_consulta": {
+    "etiqueta": "Consulta a un proveedor",
+    "tareas": 567
+   },
+   "doc_registro_factura_proveedor": {
+    "etiqueta": "Registro de facturas de proveedor",
+    "tareas": 429
+   },
+   "erp_aprobar_pedido_borrador": {
+    "etiqueta": "Aprobación de pedido de compra",
+    "tareas": 416
+   },
+   "banco_conciliacion": {
+    "etiqueta": "Conciliación de movimientos (lote diario)",
+    "tareas": 358
+   },
+   "correo_suplente_traspaso": {
+    "etiqueta": "Traspaso al suplente",
+    "tareas": 252
+   },
+   "taller_cerrar_reparacion": {
+    "etiqueta": "Cierre de reparación del taller",
+    "tareas": 206
+   },
+   "comercial_seguir_moroso": {
+    "etiqueta": "Seguimiento de moroso",
+    "tareas": 133
+   },
+   "academia_matricula": {
+    "etiqueta": "Matrícula en la academia",
+    "tareas": 106
+   },
+   "compras_reclamar_proveedor": {
+    "etiqueta": "Reclamación de retraso a proveedor",
+    "tareas": 61
+   },
+   "direccion_revisar_desviacion": {
+    "etiqueta": "Revisión de desviación presupuestaria",
+    "tareas": 18
+   }
+  },
+  "por_app": {
+   "correo": {
+    "etiqueta": "Correo",
+    "tareas": 18700
+   },
+   "documentos": {
+    "etiqueta": "Documentos",
+    "tareas": 14422
+   },
+   "hoja": {
+    "etiqueta": "Hoja de cálculo",
+    "tareas": 6418
+   },
+   "telefono": {
+    "etiqueta": "Teléfono",
+    "tareas": 4058
+   },
+   "erp": {
+    "etiqueta": "ERP",
+    "tareas": 3254
+   },
+   "banco": {
+    "etiqueta": "Banco",
+    "tareas": 2269
+   },
+   "crm": {
+    "etiqueta": "CRM",
+    "tareas": 1930
+   }
+  },
+  "por_experiencia": {
+   "experto": 37083,
+   "normal": 10540,
+   "nuevo": 3428
+  },
+  "por_sociedad": {
+   "logistica": {
+    "etiqueta": "Logística",
+    "tareas": 11724
+   },
+   "matriz": {
+    "etiqueta": "Matriz",
+    "tareas": 11132
+   },
+   "sat": {
+    "etiqueta": "Servicio técnico",
+    "tareas": 9037
+   },
+   "taller": {
+    "etiqueta": "Taller",
+    "tareas": 5533
+   },
+   "tienda": {
+    "etiqueta": "Tienda",
+    "tareas": 4071
+   },
+   "financiera": {
+    "etiqueta": "Financiera",
+    "tareas": 3468
+   },
+   "maquinaria": {
+    "etiqueta": "Maquinaria",
+    "tareas": 3253
+   },
+   "inmobiliaria": {
+    "etiqueta": "Inmobiliaria",
+    "tareas": 1562
+   },
+   "academia": {
+    "etiqueta": "Academia",
+    "tareas": 1271
+   }
+  },
+  "por_area": {
+   "almacen": {
+    "etiqueta": "Almacén",
+    "tareas": 6525
+   },
+   "finanzas": {
+    "etiqueta": "Finanzas y administración",
+    "tareas": 6205
+   },
+   "campo": {
+    "etiqueta": "Técnicos de campo",
+    "tareas": 5987
+   },
+   "ventas": {
+    "etiqueta": "Ventas",
+    "tareas": 4556
+   },
+   "oficiales": {
+    "etiqueta": "Oficiales de taller",
+    "tareas": 4325
+   },
+   "administracion": {
+    "etiqueta": "Administración",
+    "tareas": 2521
+   },
+   "atencion": {
+    "etiqueta": "Atención al cliente",
+    "tareas": 2279
+   },
+   "direccion": {
+    "etiqueta": "Dirección",
+    "tareas": 1700
+   },
+   "tesoreria": {
+    "etiqueta": "Tesorería",
+    "tareas": 1663
+   },
+   "it": {
+    "etiqueta": "Sistemas",
+    "tareas": 1435
+   },
+   "jefatura": {
+    "etiqueta": "Jefatura",
+    "tareas": 1391
+   },
+   "entrega": {
+    "etiqueta": "Entrega y recogida",
+    "tareas": 1227
+   },
+   "rrhh": {
+    "etiqueta": "Personas",
+    "tareas": 1140
+   },
+   "valoracion": {
+    "etiqueta": "Valoración",
+    "tareas": 823
+   },
+   "legal": {
+    "etiqueta": "Legal",
+    "tareas": 746
+   },
+   "catalogo": {
+    "etiqueta": "Catálogo y precios",
+    "tareas": 661
+   },
+   "responsable": {
+    "etiqueta": "Responsable de la sociedad",
+    "tareas": 656
+   },
+   "devoluciones": {
+    "etiqueta": "Devoluciones",
+    "tareas": 633
+   },
+   "recobro": {
+    "etiqueta": "Recobro",
+    "tareas": 618
+   },
+   "formacion": {
+    "etiqueta": "Formación",
+    "tareas": 610
+   },
+   "trafico": {
+    "etiqueta": "Tráfico",
+    "tareas": 559
+   },
+   "mostrador": {
+    "etiqueta": "Mostrador",
+    "tareas": 552
+   },
+   "gerencia": {
+    "etiqueta": "Gerencia",
+    "tareas": 551
+   },
+   "alquileres": {
+    "etiqueta": "Alquileres",
+    "tareas": 537
+   },
+   "web": {
+    "etiqueta": "Tienda en línea",
+    "tareas": 362
+   },
+   "comercial": {
+    "etiqueta": "Comercial",
+    "tareas": 357
+   },
+   "reformas": {
+    "etiqueta": "Reformas",
+    "tareas": 308
+   },
+   "coordinacion": {
+    "etiqueta": "Coordinación",
+    "tareas": 303
+   },
+   "formalizacion": {
+    "etiqueta": "Formalización",
+    "tareas": 302
+   },
+   "recambios": {
+    "etiqueta": "Recambios",
+    "tareas": 243
+   },
+   "patrimonio": {
+    "etiqueta": "Patrimonio",
+    "tareas": 241
+   },
+   "calidad": {
+    "etiqueta": "Calidad",
+    "tareas": 235
+   },
+   "comunidades": {
+    "etiqueta": "Comunidades",
+    "tareas": 235
+   },
+   "riesgos": {
+    "etiqueta": "Riesgos",
+    "tareas": 229
+   },
+   "bienestar": {
+    "etiqueta": "Prevención",
+    "tareas": 225
+   },
+   "cumplimiento": {
+    "etiqueta": "Cumplimiento",
+    "tareas": 111
+   }
+  },
+  "por_puesto_principales": [
+   {
+    "puesto": "técnico de campo",
+    "tareas": 5987
+   },
+   {
+    "puesto": "operario de almacén",
+    "tareas": 4923
+   },
+   {
+    "puesto": "oficial",
+    "tareas": 4325
+   },
+   {
+    "puesto": "comercial",
+    "tareas": 3464
+   },
+   {
+    "puesto": "tesorera (caja común)",
+    "tareas": 2231
+   },
+   {
+    "puesto": "administración del servicio técnico",
+    "tareas": 1616
+   },
+   {
+    "puesto": "atención al cliente",
+    "tareas": 1552
+   },
+   {
+    "puesto": "entrega y recogida",
+    "tareas": 1227
+   },
+   {
+    "puesto": "tesorería",
+    "tareas": 1118
+   },
+   {
+    "puesto": "cuentas a cobrar",
+    "tareas": 782
+   },
+   {
+    "puesto": "catálogo y precios",
+    "tareas": 661
+   },
+   {
+    "puesto": "devoluciones",
+    "tareas": 633
+   }
+  ],
+  "puestos_distintos": 77,
+  "por_dia": [
+   {
+    "fecha": "2026-11-03",
+    "tareas": 898,
+    "personas": 146
+   },
+   {
+    "fecha": "2026-11-04",
+    "tareas": 842,
+    "personas": 146
+   },
+   {
+    "fecha": "2026-11-05",
+    "tareas": 840,
+    "personas": 146
+   },
+   {
+    "fecha": "2026-11-06",
+    "tareas": 804,
+    "personas": 146
+   },
+   {
+    "fecha": "2026-11-07",
+    "tareas": 0,
+    "personas": 0
+   },
+   {
+    "fecha": "2026-11-08",
+    "tareas": 0,
+    "personas": 0
+   },
+   {
+    "fecha": "2026-11-09",
+    "tareas": 429,
+    "personas": 87
+   },
+   {
+    "fecha": "2026-11-10",
+    "tareas": 866,
+    "personas": 146
+   },
+   {
+    "fecha": "2026-11-11",
+    "tareas": 789,
+    "personas": 146
+   },
+   {
+    "fecha": "2026-11-12",
+    "tareas": 779,
+    "personas": 146
+   },
+   {
+    "fecha": "2026-11-13",
+    "tareas": 849,
+    "personas": 146
+   },
+   {
+    "fecha": "2026-11-14",
+    "tareas": 0,
+    "personas": 0
+   },
+   {
+    "fecha": "2026-11-15",
+    "tareas": 0,
+    "personas": 0
+   },
+   {
+    "fecha": "2026-11-16",
+    "tareas": 837,
+    "personas": 146
+   },
+   {
+    "fecha": "2026-11-17",
+    "tareas": 792,
+    "personas": 146
+   },
+   {
+    "fecha": "2026-11-18",
+    "tareas": 785,
+    "personas": 146
+   },
+   {
+    "fecha": "2026-11-19",
+    "tareas": 801,
+    "personas": 146
+   },
+   {
+    "fecha": "2026-11-20",
+    "tareas": 824,
+    "personas": 154
+   },
+   {
+    "fecha": "2026-11-21",
+    "tareas": 0,
+    "personas": 0
+   },
+   {
+    "fecha": "2026-11-22",
+    "tareas": 0,
+    "personas": 0
+   },
+   {
+    "fecha": "2026-11-23",
+    "tareas": 877,
+    "personas": 153
+   },
+   {
+    "fecha": "2026-11-24",
+    "tareas": 834,
+    "personas": 153
+   },
+   {
+    "fecha": "2026-11-25",
+    "tareas": 825,
+    "personas": 152
+   },
+   {
+    "fecha": "2026-11-26",
+    "tareas": 844,
+    "personas": 152
+   },
+   {
+    "fecha": "2026-11-27",
+    "tareas": 795,
+    "personas": 153
+   },
+   {
+    "fecha": "2026-11-28",
+    "tareas": 0,
+    "personas": 0
+   },
+   {
+    "fecha": "2026-11-29",
+    "tareas": 0,
+    "personas": 0
+   },
+   {
+    "fecha": "2026-11-30",
+    "tareas": 883,
+    "personas": 154
+   },
+   {
+    "fecha": "2026-12-01",
+    "tareas": 863,
+    "personas": 154
+   },
+   {
+    "fecha": "2026-12-02",
+    "tareas": 836,
+    "personas": 154
+   },
+   {
+    "fecha": "2026-12-03",
+    "tareas": 912,
+    "personas": 154
+   },
+   {
+    "fecha": "2026-12-04",
+    "tareas": 879,
+    "personas": 154
+   },
+   {
+    "fecha": "2026-12-05",
+    "tareas": 0,
+    "personas": 0
+   },
+   {
+    "fecha": "2026-12-06",
+    "tareas": 0,
+    "personas": 0
+   },
+   {
+    "fecha": "2026-12-07",
+    "tareas": 0,
+    "personas": 0
+   },
+   {
+    "fecha": "2026-12-08",
+    "tareas": 0,
+    "personas": 0
+   },
+   {
+    "fecha": "2026-12-09",
+    "tareas": 876,
+    "personas": 146
+   },
+   {
+    "fecha": "2026-12-10",
+    "tareas": 822,
+    "personas": 146
+   },
+   {
+    "fecha": "2026-12-11",
+    "tareas": 818,
+    "personas": 146
+   },
+   {
+    "fecha": "2026-12-12",
+    "tareas": 0,
+    "personas": 0
+   },
+   {
+    "fecha": "2026-12-13",
+    "tareas": 0,
+    "personas": 0
+   },
+   {
+    "fecha": "2026-12-14",
+    "tareas": 859,
+    "personas": 146
+   },
+   {
+    "fecha": "2026-12-15",
+    "tareas": 812,
+    "personas": 146
+   },
+   {
+    "fecha": "2026-12-16",
+    "tareas": 824,
+    "personas": 146
+   },
+   {
+    "fecha": "2026-12-17",
+    "tareas": 787,
+    "personas": 146
+   },
+   {
+    "fecha": "2026-12-18",
+    "tareas": 841,
+    "personas": 146
+   },
+   {
+    "fecha": "2026-12-19",
+    "tareas": 0,
+    "personas": 0
+   },
+   {
+    "fecha": "2026-12-20",
+    "tareas": 0,
+    "personas": 0
+   },
+   {
+    "fecha": "2026-12-21",
+    "tareas": 896,
+    "personas": 146
+   },
+   {
+    "fecha": "2026-12-22",
+    "tareas": 823,
+    "personas": 146
+   },
+   {
+    "fecha": "2026-12-23",
+    "tareas": 799,
+    "personas": 146
+   },
+   {
+    "fecha": "2026-12-24",
+    "tareas": 835,
+    "personas": 146
+   },
+   {
+    "fecha": "2026-12-25",
+    "tareas": 0,
+    "personas": 0
+   },
+   {
+    "fecha": "2026-12-26",
+    "tareas": 0,
+    "personas": 0
+   },
+   {
+    "fecha": "2026-12-27",
+    "tareas": 0,
+    "personas": 0
+   },
+   {
+    "fecha": "2026-12-28",
+    "tareas": 932,
+    "personas": 146
+   },
+   {
+    "fecha": "2026-12-29",
+    "tareas": 841,
+    "personas": 146
+   },
+   {
+    "fecha": "2026-12-30",
+    "tareas": 800,
+    "personas": 146
+   },
+   {
+    "fecha": "2026-12-31",
+    "tareas": 830,
+    "personas": 146
+   },
+   {
+    "fecha": "2027-01-01",
+    "tareas": 842,
+    "personas": 146
+   },
+   {
+    "fecha": "2027-01-02",
+    "tareas": 0,
+    "personas": 0
+   },
+   {
+    "fecha": "2027-01-03",
+    "tareas": 0,
+    "personas": 0
+   },
+   {
+    "fecha": "2027-01-04",
+    "tareas": 1033,
+    "personas": 146
+   },
+   {
+    "fecha": "2027-01-05",
+    "tareas": 863,
+    "personas": 146
+   },
+   {
+    "fecha": "2027-01-06",
+    "tareas": 800,
+    "personas": 146
+   },
+   {
+    "fecha": "2027-01-07",
+    "tareas": 791,
+    "personas": 146
+   },
+   {
+    "fecha": "2027-01-08",
+    "tareas": 831,
+    "personas": 146
+   },
+   {
+    "fecha": "2027-01-09",
+    "tareas": 0,
+    "personas": 0
+   },
+   {
+    "fecha": "2027-01-10",
+    "tareas": 0,
+    "personas": 0
+   },
+   {
+    "fecha": "2027-01-11",
+    "tareas": 962,
+    "personas": 146
+   },
+   {
+    "fecha": "2027-01-12",
+    "tareas": 894,
+    "personas": 146
+   },
+   {
+    "fecha": "2027-01-13",
+    "tareas": 840,
+    "personas": 146
+   },
+   {
+    "fecha": "2027-01-14",
+    "tareas": 795,
+    "personas": 146
+   },
+   {
+    "fecha": "2027-01-15",
+    "tareas": 825,
+    "personas": 146
+   },
+   {
+    "fecha": "2027-01-16",
+    "tareas": 0,
+    "personas": 0
+   },
+   {
+    "fecha": "2027-01-17",
+    "tareas": 0,
+    "personas": 0
+   },
+   {
+    "fecha": "2027-01-18",
+    "tareas": 926,
+    "personas": 146
+   },
+   {
+    "fecha": "2027-01-19",
+    "tareas": 847,
+    "personas": 146
+   },
+   {
+    "fecha": "2027-01-20",
+    "tareas": 839,
+    "personas": 146
+   },
+   {
+    "fecha": "2027-01-21",
+    "tareas": 799,
+    "personas": 146
+   },
+   {
+    "fecha": "2027-01-22",
+    "tareas": 848,
+    "personas": 146
+   },
+   {
+    "fecha": "2027-01-23",
+    "tareas": 0,
+    "personas": 0
+   },
+   {
+    "fecha": "2027-01-24",
+    "tareas": 0,
+    "personas": 0
+   },
+   {
+    "fecha": "2027-01-25",
+    "tareas": 939,
+    "personas": 146
+   },
+   {
+    "fecha": "2027-01-26",
+    "tareas": 842,
+    "personas": 146
+   },
+   {
+    "fecha": "2027-01-27",
+    "tareas": 830,
+    "personas": 146
+   },
+   {
+    "fecha": "2027-01-28",
+    "tareas": 825,
+    "personas": 146
+   },
+   {
+    "fecha": "2027-01-29",
+    "tareas": 802,
+    "personas": 146
+   },
+   {
+    "fecha": "2027-01-30",
+    "tareas": 0,
+    "personas": 0
+   },
+   {
+    "fecha": "2027-01-31",
+    "tareas": 0,
+    "personas": 0
+   }
+  ]
+ },
+ "apps": {
+  "correos": 18700,
+  "correos_externos": 6009,
+  "correos_internos": 12691,
+  "documentos": 19945,
+  "llamadas": 4058,
+  "actividades_crm": 1930,
+  "libros_de_hoja": 6418,
+  "movimientos_banco": 17793
+ },
+ "textos": {
+  "por_fuente": {
+   "modelo": 37563,
+   "reintento": 7021,
+   "plantilla": 6467
+  },
+  "por_fuente_y_mes": {
+   "2026-11": {
+    "modelo": 12219,
+    "plantilla": 1785,
+    "reintento": 2189
+   },
+   "2026-12": {
+    "modelo": 12381,
+    "plantilla": 2104,
+    "reintento": 2400
+   },
+   "2027-01": {
+    "modelo": 12963,
+    "plantilla": 2578,
+    "reintento": 2432
+   }
+  },
+  "rechazos_por_motivo": {
+   "marcador_perdido": {
+    "etiqueta": "Falta un marcador obligatorio",
+    "rechazos": 9776
+   },
+   "referencia_ajena": {
+    "etiqueta": "Referencia ajena a la tarea",
+    "rechazos": 4767
+   },
+   "corto": {
+    "etiqueta": "Demasiado corto",
+    "rechazos": 2807
+   },
+   "nombre_persona": {
+    "etiqueta": "Nombre de una persona del censo",
+    "rechazos": 699
+   },
+   "identificador": {
+    "etiqueta": "Documento de identidad",
+    "rechazos": 298
+   },
+   "json_invalido": {
+    "etiqueta": "Respuesta que no es JSON",
+    "rechazos": 295
+   },
+   "falta_texto": {
+    "etiqueta": "Falta el texto de una tarea",
+    "rechazos": 247
+   },
+   "marcador": {
+    "etiqueta": "Marcador mal formado",
+    "rechazos": 196
+   },
+   "duplicado": {
+    "etiqueta": "Casi duplicado de un texto reciente",
+    "rechazos": 106
+   },
+   "palabra_vetada": {
+    "etiqueta": "Palabra vetada",
+    "rechazos": 81
+   },
+   "llaves": {
+    "etiqueta": "Llaves sin rellenar",
+    "rechazos": 75
+   },
+   "salud_emocion": {
+    "etiqueta": "Léxico de salud o emociones",
+    "rechazos": 65
+   },
+   "cifra_literal": {
+    "etiqueta": "Cifra escrita a mano",
+    "rechazos": 23
+   },
+   "largo": {
+    "etiqueta": "Demasiado largo",
+    "rechazos": 17
+   },
+   "fallo_escritor": {
+    "etiqueta": "Fallo al pedir el texto",
+    "rechazos": 14
+   }
+  },
+  "rechazos_total": 19466,
+  "nota": "Motivos contados por texto e intento (la respuesta que no es JSON cuenta una vez); un texto rechazado puede sumar varios motivos. Se guarda el motivo y una huella, no el texto."
+ },
+ "sucesos_del_dia": {
+  "pedidos_mayorista": {
+   "suceso": "Pedido de un mayorista",
+   "eventos": 1881,
+   "tareas": 1881,
+   "puestos": [
+    {
+     "puesto": "comercial",
+     "tareas": 1246
+    },
+    {
+     "puesto": "jefe de ventas a mayoristas",
+     "tareas": 213
+    }
+   ]
+  },
+  "pedidos_web": {
+   "suceso": "Pedidos de la tienda en línea",
+   "eventos": 4572,
+   "tareas": 604,
+   "puestos": [
+    {
+     "puesto": "atención al cliente",
+     "tareas": 323
+    },
+    {
+     "puesto": "catálogo y precios",
+     "tareas": 132
+    }
+   ]
+  },
+  "avisos_sat": {
+   "suceso": "Aviso al servicio técnico",
+   "eventos": 1216,
+   "tareas": 1216,
+   "puestos": [
+    {
+     "puesto": "técnico de campo",
+     "tareas": 1216
+    }
+   ]
+  },
+  "facturas_proveedor": {
+   "suceso": "Facturas de proveedor",
+   "eventos": 1617,
+   "tareas": 429,
+   "puestos": [
+    {
+     "puesto": "cuentas a pagar",
+     "tareas": 147
+    },
+    {
+     "puesto": "contable de filiales",
+     "tareas": 144
+    }
+   ]
+  },
+  "movimientos_banco": {
+   "suceso": "Movimientos de banco",
+   "eventos": 3286,
+   "tareas": 358,
+   "puestos": [
+    {
+     "puesto": "tesorería",
+     "tareas": 187
+    },
+    {
+     "puesto": "tesorería de la E.F.C.",
+     "tareas": 86
+    }
+   ]
+  }
+ },
+ "reacciones_a_la_economia": {
+  "eco_compras_aprobar": {
+   "causa": "Pedido de compra por aprobar",
+   "tarea": "Aprobación de pedido de compra",
+   "causas": 399,
+   "tareas": 416,
+   "eventos": 416,
+   "diferidos": 51,
+   "sin_persona": 0,
+   "mismo_dia": 348,
+   "en_el_tick_siguiente": 326,
+   "retraso_mediano_min": 95,
+   "puestos": [
+    {
+     "puesto": "directora general",
+     "tareas": 227
+    },
+    {
+     "puesto": "director financiero",
+     "tareas": 125
+    },
+    {
+     "puesto": "compradora",
+     "tareas": 45
+    }
+   ]
+  },
+  "eco_compras_retrasos": {
+   "causa": "Compra con retraso",
+   "tarea": "Reclamación de retraso a proveedor",
+   "causas": 44,
+   "tareas": 61,
+   "eventos": 61,
+   "diferidos": 1,
+   "sin_persona": 0,
+   "mismo_dia": 43,
+   "en_el_tick_siguiente": 23,
+   "retraso_mediano_min": 130,
+   "puestos": [
+    {
+     "puesto": "compradora",
+     "tareas": 32
+    },
+    {
+     "puesto": "jefe de compras",
+     "tareas": 29
+    }
+   ]
+  },
+  "eco_conciliar_banco": {
+   "causa": "Movimiento de banco",
+   "tarea": "Conciliación bancaria (por tick)",
+   "causas": 13880,
+   "tareas": 1911,
+   "eventos": 17329,
+   "diferidos": 3311,
+   "sin_persona": 0,
+   "mismo_dia": 1041,
+   "en_el_tick_siguiente": 970,
+   "retraso_mediano_min": 119,
+   "puestos": [
+    {
+     "puesto": "tesorera (caja común)",
+     "tareas": 1356
+    },
+    {
+     "puesto": "tesorería",
+     "tareas": 345
+    },
+    {
+     "puesto": "tesorería de la E.F.C.",
+     "tareas": 166
+    }
+   ]
+  },
+  "eco_reclamar_cobros": {
+   "causa": "Factura vencida sin cobrar",
+   "tarea": "Reclamación de cobro",
+   "causas": 482,
+   "tareas": 836,
+   "eventos": 836,
+   "diferidos": 74,
+   "sin_persona": 0,
+   "mismo_dia": 408,
+   "en_el_tick_siguiente": 378,
+   "retraso_mediano_min": 949.5,
+   "puestos": [
+    {
+     "puesto": "tesorera (caja común)",
+     "tareas": 429
+    },
+    {
+     "puesto": "cuentas a cobrar",
+     "tareas": 407
+    }
+   ]
+  },
+  "eco_seguir_morosos": {
+   "causa": "Cliente que pasa a moroso",
+   "tarea": "Seguimiento de moroso",
+   "causas": 74,
+   "tareas": 133,
+   "eventos": 133,
+   "diferidos": 8,
+   "sin_persona": 0,
+   "mismo_dia": 66,
+   "en_el_tick_siguiente": 60,
+   "retraso_mediano_min": 865,
+   "puestos": [
+    {
+     "puesto": "comercial",
+     "tareas": 102
+    },
+    {
+     "puesto": "comercial de grandes cuentas",
+     "tareas": 15
+    },
+    {
+     "puesto": "administración de ventas",
+     "tareas": 8
+    }
+   ]
+  },
+  "eco_revisar_desviacion": {
+   "causa": "Desviación del presupuesto al cierre",
+   "tarea": "Revisión de desviación presupuestaria",
+   "causas": 18,
+   "tareas": 18,
+   "eventos": 18,
+   "diferidos": 18,
+   "sin_persona": 0,
+   "mismo_dia": 0,
+   "en_el_tick_siguiente": 0,
+   "retraso_mediano_min": 953.5,
+   "puestos": [
+    {
+     "puesto": "directora general",
+     "tareas": 4
+    },
+    {
+     "puesto": "gerente",
+     "tareas": 4
+    },
+    {
+     "puesto": "coordinación de formación",
+     "tareas": 2
+    }
+   ]
+  },
+  "eco_matricular": {
+   "causa": "Factura de la academia",
+   "tarea": "Matrícula en la academia",
+   "causas": 106,
+   "tareas": 106,
+   "eventos": 106,
+   "diferidos": 20,
+   "sin_persona": 0,
+   "mismo_dia": 86,
+   "en_el_tick_siguiente": 86,
+   "retraso_mediano_min": 101,
+   "puestos": [
+    {
+     "puesto": "administración",
+     "tareas": 106
+    }
+   ]
+  },
+  "eco_cerrar_reparacion": {
+   "causa": "Factura del taller",
+   "tarea": "Cierre de reparación del taller",
+   "causas": 201,
+   "tareas": 206,
+   "eventos": 206,
+   "diferidos": 35,
+   "sin_persona": 0,
+   "mismo_dia": 166,
+   "en_el_tick_siguiente": 162,
+   "retraso_mediano_min": 98,
+   "puestos": [
+    {
+     "puesto": "jefe de taller",
+     "tareas": 206
+    }
+   ]
+  },
+  "eco_cerrar_aviso_sat": {
+   "causa": "Factura del SAT",
+   "tarea": "Cierre y factura de aviso del SAT",
+   "causas": 1325,
+   "tareas": 1374,
+   "eventos": 1374,
+   "diferidos": 277,
+   "sin_persona": 0,
+   "mismo_dia": 1048,
+   "en_el_tick_siguiente": 1048,
+   "retraso_mediano_min": 98,
+   "puestos": [
+    {
+     "puesto": "administración del servicio técnico",
+     "tareas": 1283
+    },
+    {
+     "puesto": "planificación del servicio técnico",
+     "tareas": 46
+    },
+    {
+     "puesto": "jefe del servicio técnico",
+     "tareas": 45
+    }
+   ]
+  }
+ },
+ "reacciones_resumen": {
+  "tareas": 5061,
+  "mismo_dia": 3206,
+  "en_el_tick_siguiente": 3053,
+  "mismo_dia_pct": 63,
+  "tick_siguiente_pct": 60
+ },
+ "sucesos_economicos_por_familia": {
+  "Costes de cada venta en línea": 13899,
+  "Ventas (tienda y mayoristas)": 6548,
+  "Cobros de clientes": 5445,
+  "Préstamos y compras financiadas": 5040,
+  "Tesorería común (barridos y anticipos)": 3998,
+  "Alquiler de maquinaria": 2255,
+  "Subvención de la financiación al 0 %": 1632,
+  "Factoring de facturas de logística": 1588,
+  "Intereses de la tesorería común": 1424,
+  "Compras (borrador, aprobación, retraso, recepción)": 1263,
+  "Servicios del SAT": 1215,
+  "Reclamaciones de cobro": 876,
+  "Mermas": 812,
+  "Línea bancaria": 709,
+  "Pagos a proveedores": 573,
+  "Rentas y gastos de inmuebles": 508,
+  "Contratos de mantenimiento del SAT": 399,
+  "Trabajos del taller": 182,
+  "Clientes morosos": 135,
+  "Cursos de la academia": 106,
+  "Servicios centrales de la matriz": 80,
+  "Gastos generales": 72,
+  "Reparaciones del taller a maquinaria": 56,
+  "Nóminas": 27,
+  "Provisiones y fallidos": 27,
+  "Seguridad Social": 27,
+  "IVA trimestral": 18,
+  "Retenciones de IRPF": 18,
+  "Costes variables (acreedores)": 12,
+  "Financiación de la financiera": 9,
+  "Impuesto sobre sociedades": 9,
+  "Pagas extra": 9
+ },
+ "facturas": {
+  "nota": "Facturas emitidas dentro de la tanda (sin la cartera de arranque); las intragrupo van aparte.",
+  "emitidas_a_terceros": 9505,
+  "importe_emitido_a_terceros": 17615368.08,
+  "por_sociedad": {
+   "tienda": 4633,
+   "logistica": 1915,
+   "sat": 1380,
+   "maquinaria": 1219,
+   "taller": 182,
+   "academia": 106,
+   "inmobiliaria": 70
+  },
+  "situacion_al_final": {
+   "cobrada": 7763,
+   "vigente": 1500,
+   "vencida": 214,
+   "impagada": 28
+  },
+  "alguna_vez_vencidas": 981,
+  "impagadas": 40,
+  "cedidas_en_factoring": 629,
+  "con_albaran_de_pedido": 6548,
+  "intragrupo": {
+   "servicios_centrales": 24,
+   "reparaciones_taller_a_maquinaria": 26,
+   "formacion_interna": 0
+  },
+  "cartera_de_arranque": 93
+ },
+ "cadenas": {
+  "ventas_y_cobros": {
+   "emitidas": 6548,
+   "cobradas": 5384,
+   "cobro_con_movimiento_de_banco": 5384,
+   "movimiento_conciliado_por_tesoreria": 5255,
+   "importe_emitido": 16367237.42,
+   "importe_cobrado": 10160538.01
+  },
+  "servicio_tecnico": {
+   "emitidas": 1215,
+   "con_tarea_de_cierre": 1209,
+   "cobradas": 1130,
+   "cobro_con_movimiento_de_banco": 1130,
+   "movimiento_conciliado_por_tesoreria": 1097,
+   "importe_emitido": 364470.2,
+   "importe_cobrado": 340501
+  },
+  "taller": {
+   "emitidas": 182,
+   "con_tarea_de_cierre": 181,
+   "cobradas": 80,
+   "cobro_con_movimiento_de_banco": 80,
+   "movimiento_conciliado_por_tesoreria": 72,
+   "importe_emitido": 468243.43,
+   "importe_cobrado": 205480.7
+  },
+  "taller_a_maquinaria": {
+   "emitidas": 26,
+   "cobradas": 2,
+   "cobro_con_movimiento_de_banco": 2,
+   "movimiento_conciliado_por_tesoreria": 2,
+   "importe_emitido": 3170.1,
+   "importe_cobrado": 1071.56
+  },
+  "academia": {
+   "emitidas": 106,
+   "con_tarea_de_cierre": 106,
+   "cobradas": 106,
+   "cobro_con_movimiento_de_banco": 106,
+   "movimiento_conciliado_por_tesoreria": 106,
+   "importe_emitido": 55481.27,
+   "importe_cobrado": 55481.27
+  },
+  "maquinaria_alquileres": {
+   "emitidas": 1218,
+   "cobradas": 842,
+   "cobro_con_movimiento_de_banco": 842,
+   "movimiento_conciliado_por_tesoreria": 815,
+   "importe_emitido": 176013.81,
+   "importe_cobrado": 120766.05
+  },
+  "compras": {
+   "reposicion_de_existencias": {
+    "pedidos": 417,
+    "por_situacion_al_final": {
+     "facturado": 244,
+     "pagado": 123,
+     "aprobado": 50
+    },
+    "por_sociedad": {
+     "tienda": 219,
+     "logistica": 198
+    },
+    "aprobados": 417,
+    "aprobacion_con_tarea": 416,
+    "recibidos_con_factura_de_proveedor": 367,
+    "pagados": 123,
+    "pago_con_movimiento_de_banco": 123,
+    "importe_pedido": 10829555.64,
+    "cadena_completa": 123
+   },
+   "materiales_de_servicios": {
+    "pedidos": 1018,
+    "por_situacion_al_final": {
+     "facturado": 584,
+     "pagado": 434
+    },
+    "por_sociedad": {
+     "sat": 836,
+     "taller": 182
+    },
+    "aprobados": 0,
+    "aprobacion_con_tarea": 0,
+    "recibidos_con_factura_de_proveedor": 1018,
+    "pagados": 434,
+    "pago_con_movimiento_de_banco": 434,
+    "importe_pedido": 321484.08
+   },
+   "borradores_por_consulta_de_existencias": 1620
+  }
+ },
+ "financiera": {
+  "nota": "Operaciones nuevas: las concedidas dentro de la tanda, con su suceso de concesión. La cartera de arranque se cuenta aparte.",
+  "operaciones_nuevas_por_producto": {
+   "tienda_cero": {
+    "operaciones": 816,
+    "principal": 1107858.23
+   },
+   "tienda": {
+    "operaciones": 264,
+    "principal": 368989.02
+   },
+   "personales": {
+    "operaciones": 18,
+    "principal": 1260000
+   },
+   "renting": {
+    "operaciones": 6,
+    "principal": 900000
+   }
+  },
+  "cartera_de_arranque_por_producto": {
+   "personales": {
+    "operaciones": 285,
+    "principal": 19950000
+   },
+   "renting": {
+    "operaciones": 20,
+    "principal": 3000000
+   }
+  },
+  "compras_de_tienda_financiadas": 1080,
+  "factoring": {
+   "cedido": 3384133.29,
+   "cobrado": 1422750.43,
+   "facturas_cedidas": 629
+  }
+ },
+ "banco": {
+  "movimientos": 17793,
+  "entradas": 11222,
+  "salidas": 6571,
+  "importe_entradas": 44751130.49,
+  "importe_salidas": 40207408.96,
+  "por_familia": {
+   "Tesorería común (barridos y anticipos)": {
+    "movimientos": 3998,
+    "entradas": 21179976.74,
+    "salidas": 21179976.74
+   },
+   "Cobros de clientes": {
+    "movimientos": 3426,
+    "entradas": 10983033.88,
+    "salidas": 0
+   },
+   "Préstamos y compras financiadas": {
+    "movimientos": 3144,
+    "entradas": 1172631.21,
+    "salidas": 3636847.25
+   },
+   "Subvención de la financiación al 0 %": {
+    "movimientos": 1632,
+    "entradas": 49853.62,
+    "salidas": 49853.62
+   },
+   "Intereses de la tesorería común": {
+    "movimientos": 1424,
+    "entradas": 32445.75,
+    "salidas": 32445.75
+   },
+   "Factoring de facturas de logística": {
+    "movimientos": 1286,
+    "entradas": 3357801.36,
+    "salidas": 3357801.36
+   },
+   "Alquiler de maquinaria": {
+    "movimientos": 1032,
+    "entradas": 270766.05,
+    "salidas": 134907.46
+   },
+   "Línea bancaria": {
+    "movimientos": 709,
+    "entradas": 7206108.48,
+    "salidas": 3380449.94
+   },
+   "Pagos a proveedores": {
+    "movimientos": 573,
+    "entradas": 0,
+    "salidas": 3756744.98
+   },
+   "Rentas y gastos de inmuebles": {
+    "movimientos": 366,
+    "entradas": 181873.41,
+    "salidas": 31135.45
+   },
+   "Gastos generales": {
+    "movimientos": 72,
+    "entradas": 0,
+    "salidas": 396946.92
+   },
+   "Servicios centrales de la matriz": {
+    "movimientos": 32,
+    "entradas": 266200.02,
+    "salidas": 266200.02
+   },
+   "Nóminas": {
+    "movimientos": 27,
+    "entradas": 0,
+    "salidas": 604972.84
+   },
+   "Seguridad Social": {
+    "movimientos": 18,
+    "entradas": 0,
+    "salidas": 212237.68
+   },
+   "Costes variables (acreedores)": {
+    "movimientos": 12,
+    "entradas": 0,
+    "salidas": 2084012.49
+   },
+   "IVA trimestral": {
+    "movimientos": 11,
+    "entradas": 9368.41,
+    "salidas": 718442.85
+   },
+   "Financiación de la financiera": {
+    "movimientos": 9,
+    "entradas": 40000,
+    "salidas": 83465.25
+   },
+   "Pagas extra": {
+    "movimientos": 9,
+    "entradas": 0,
+    "salidas": 211414
+   },
+   "Retenciones de IRPF": {
+    "movimientos": 9,
+    "entradas": 0,
+    "salidas": 68482.8
+   },
+   "Reparaciones del taller a maquinaria": {
+    "movimientos": 4,
+    "entradas": 1071.56,
+    "salidas": 1071.56
+   }
+  }
+ },
+ "cuentas_de_resultados": [
+  {
+   "mes": "2026-11",
+   "cerrado": true,
+   "sociedades": {
+    "matriz": {
+     "ingresos": 123333.33,
+     "gastos_sin_impuesto": 78977.09,
+     "resultado_antes_impuestos": 44356.24,
+     "impuesto_sociedades": 11089.06,
+     "resultado": 33267.18
+    },
+    "logistica": {
+     "ingresos": 2828533.39,
+     "gastos_sin_impuesto": 2688199.04,
+     "resultado_antes_impuestos": 140334.35,
+     "impuesto_sociedades": 35083.59,
+     "resultado": 105250.76
+    },
+    "tienda": {
+     "ingresos": 1579921.76,
+     "gastos_sin_impuesto": 1485340.01,
+     "resultado_antes_impuestos": 94581.75,
+     "impuesto_sociedades": 23645.44,
+     "resultado": 70936.31
+    },
+    "sat": {
+     "ingresos": 99484.71,
+     "gastos_sin_impuesto": 85109.57,
+     "resultado_antes_impuestos": 14375.14,
+     "impuesto_sociedades": 3593.79,
+     "resultado": 10781.35
+    },
+    "taller": {
+     "ingresos": 135344.66,
+     "gastos_sin_impuesto": 115192.81,
+     "resultado_antes_impuestos": 20151.85,
+     "impuesto_sociedades": 5037.96,
+     "resultado": 15113.89
+    },
+    "maquinaria": {
+     "ingresos": 59295.52,
+     "gastos_sin_impuesto": 44798.1,
+     "resultado_antes_impuestos": 14497.42,
+     "impuesto_sociedades": 3624.36,
+     "resultado": 10873.06
+    },
+    "academia": {
+     "ingresos": 27718.74,
+     "gastos_sin_impuesto": 18812.94,
+     "resultado_antes_impuestos": 8905.8,
+     "impuesto_sociedades": 2226.45,
+     "resultado": 6679.35
+    },
+    "financiera": {
+     "ingresos": 30787.99,
+     "gastos_sin_impuesto": 55003.76,
+     "resultado_antes_impuestos": -24215.77,
+     "impuesto_sociedades": 0,
+     "resultado": -24215.77
+    },
+    "inmobiliaria": {
+     "ingresos": 45559.45,
+     "gastos_sin_impuesto": 29434.69,
+     "resultado_antes_impuestos": 16124.76,
+     "impuesto_sociedades": 4031.19,
+     "resultado": 12093.57
+    }
+   },
+   "consolidado": {
+    "ingresos_sumados": 4929979.55,
+    "eliminaciones_intragrupo": 154682.99,
+    "ingresos_consolidados": 4775296.56,
+    "resultado_antes_impuestos": 329111.54,
+    "impuesto_sociedades": 88331.84,
+    "resultado": 240779.7,
+    "detalle_eliminaciones": [
+     {
+      "concepto": "Servicios centrales",
+      "importe": 110000,
+      "contrapartida_cuadra": true
+     },
+     {
+      "concepto": "Intereses de la tesorería común",
+      "importe": 6759.59,
+      "contrapartida_cuadra": true
+     },
+     {
+      "concepto": "Intereses del préstamo de la matriz",
+      "importe": 13333.33,
+      "contrapartida_cuadra": true
+     },
+     {
+      "concepto": "Subvención de la financiación al 0 %",
+      "importe": 14956.55,
+      "contrapartida_cuadra": true
+     },
+     {
+      "concepto": "Descuento del factoring",
+      "importe": 8747.93,
+      "contrapartida_cuadra": true
+     },
+     {
+      "concepto": "Reparaciones del taller a maquinaria",
+      "importe": 885.59,
+      "contrapartida_cuadra": true
+     },
+     {
+      "concepto": "Formación interna de la academia",
+      "importe": 0
+     }
+    ]
+   }
+  },
+  {
+   "mes": "2026-12",
+   "cerrado": true,
+   "sociedades": {
+    "matriz": {
+     "ingresos": 123333.34,
+     "gastos_sin_impuesto": 149505.71,
+     "resultado_antes_impuestos": -26172.37,
+     "impuesto_sociedades": -6543.09,
+     "resultado": -19629.28
+    },
+    "logistica": {
+     "ingresos": 2689507.98,
+     "gastos_sin_impuesto": 2628449.38,
+     "resultado_antes_impuestos": 61058.6,
+     "impuesto_sociedades": 15264.65,
+     "resultado": 45793.95
+    },
+    "tienda": {
+     "ingresos": 1546077.03,
+     "gastos_sin_impuesto": 1490000.67,
+     "resultado_antes_impuestos": 56076.36,
+     "impuesto_sociedades": 14019.09,
+     "resultado": 42057.27
+    },
+    "sat": {
+     "ingresos": 109567.91,
+     "gastos_sin_impuesto": 127520.06,
+     "resultado_antes_impuestos": -17952.15,
+     "impuesto_sociedades": -3593.79,
+     "resultado": -14358.36
+    },
+    "taller": {
+     "ingresos": 122953.14,
+     "gastos_sin_impuesto": 147436.84,
+     "resultado_antes_impuestos": -24483.7,
+     "impuesto_sociedades": -5037.96,
+     "resultado": -19445.74
+    },
+    "maquinaria": {
+     "ingresos": 44709.24,
+     "gastos_sin_impuesto": 70916.69,
+     "resultado_antes_impuestos": -26207.45,
+     "impuesto_sociedades": -3624.36,
+     "resultado": -22583.09
+    },
+    "academia": {
+     "ingresos": 8569.88,
+     "gastos_sin_impuesto": 22437.45,
+     "resultado_antes_impuestos": -13867.57,
+     "impuesto_sociedades": -2226.45,
+     "resultado": -11641.12
+    },
+    "financiera": {
+     "ingresos": 188566.85,
+     "gastos_sin_impuesto": 81180.73,
+     "resultado_antes_impuestos": 107386.12,
+     "impuesto_sociedades": 20792.59,
+     "resultado": 86593.53
+    },
+    "inmobiliaria": {
+     "ingresos": 50971.67,
+     "gastos_sin_impuesto": 42203.29,
+     "resultado_antes_impuestos": 8768.38,
+     "impuesto_sociedades": 2192.1,
+     "resultado": 6576.28
+    }
+   },
+   "consolidado": {
+    "ingresos_sumados": 4884257.04,
+    "eliminaciones_intragrupo": 159402.08,
+    "ingresos_consolidados": 4724854.96,
+    "resultado_antes_impuestos": 124606.22,
+    "impuesto_sociedades": 31242.78,
+    "resultado": 93363.44,
+    "detalle_eliminaciones": [
+     {
+      "concepto": "Servicios centrales",
+      "importe": 110000,
+      "contrapartida_cuadra": true
+     },
+     {
+      "concepto": "Intereses de la tesorería común",
+      "importe": 11138.21,
+      "contrapartida_cuadra": true
+     },
+     {
+      "concepto": "Intereses del préstamo de la matriz",
+      "importe": 13333.34,
+      "contrapartida_cuadra": true
+     },
+     {
+      "concepto": "Subvención de la financiación al 0 %",
+      "importe": 16533.09,
+      "contrapartida_cuadra": true
+     },
+     {
+      "concepto": "Descuento del factoring",
+      "importe": 8397.44,
+      "contrapartida_cuadra": true
+     },
+     {
+      "concepto": "Reparaciones del taller a maquinaria",
+      "importe": 0,
+      "contrapartida_cuadra": true
+     },
+     {
+      "concepto": "Formación interna de la academia",
+      "importe": 0
+     }
+    ]
+   }
+  },
+  {
+   "mes": "2027-01",
+   "cerrado": true,
+   "sociedades": {
+    "matriz": {
+     "ingresos": 123333.33,
+     "gastos_sin_impuesto": 110300.89,
+     "resultado_antes_impuestos": 13032.44,
+     "impuesto_sociedades": 3258.11,
+     "resultado": 9774.33
+    },
+    "logistica": {
+     "ingresos": 3196576.33,
+     "gastos_sin_impuesto": 2956813.27,
+     "resultado_antes_impuestos": 239763.06,
+     "impuesto_sociedades": 59940.77,
+     "resultado": 179822.29
+    },
+    "tienda": {
+     "ingresos": 1708281.22,
+     "gastos_sin_impuesto": 1587995.28,
+     "resultado_antes_impuestos": 120285.94,
+     "impuesto_sociedades": 30071.49,
+     "resultado": 90214.45
+    },
+    "sat": {
+     "ingresos": 107814.98,
+     "gastos_sin_impuesto": 95087.99,
+     "resultado_antes_impuestos": 12726.99,
+     "impuesto_sociedades": 3181.75,
+     "resultado": 9545.24
+    },
+    "taller": {
+     "ingresos": 133418.71,
+     "gastos_sin_impuesto": 121810.51,
+     "resultado_antes_impuestos": 11608.2,
+     "impuesto_sociedades": 2902.05,
+     "resultado": 8706.15
+    },
+    "maquinaria": {
+     "ingresos": 42736.73,
+     "gastos_sin_impuesto": 60607.46,
+     "resultado_antes_impuestos": -17870.73,
+     "impuesto_sociedades": 0,
+     "resultado": -17870.73
+    },
+    "academia": {
+     "ingresos": 10123.44,
+     "gastos_sin_impuesto": 15878.42,
+     "resultado_antes_impuestos": -5754.98,
+     "impuesto_sociedades": 0,
+     "resultado": -5754.98
+    },
+    "financiera": {
+     "ingresos": 195159.92,
+     "gastos_sin_impuesto": 79480.69,
+     "resultado_antes_impuestos": 115679.23,
+     "impuesto_sociedades": 28919.81,
+     "resultado": 86759.42
+    },
+    "inmobiliaria": {
+     "ingresos": 44250.39,
+     "gastos_sin_impuesto": 33566.6,
+     "resultado_antes_impuestos": 10683.79,
+     "impuesto_sociedades": 2670.95,
+     "resultado": 8012.84
+    }
+   },
+   "consolidado": {
+    "ingresos_sumados": 5561695.05,
+    "eliminaciones_intragrupo": 167166.16,
+    "ingresos_consolidados": 5394528.89,
+    "resultado_antes_impuestos": 500153.94,
+    "impuesto_sociedades": 130944.93,
+    "resultado": 369209.01,
+    "detalle_eliminaciones": [
+     {
+      "concepto": "Servicios centrales",
+      "importe": 110000,
+      "contrapartida_cuadra": true
+     },
+     {
+      "concepto": "Intereses de la tesorería común",
+      "importe": 14547.95,
+      "contrapartida_cuadra": true
+     },
+     {
+      "concepto": "Intereses del préstamo de la matriz",
+      "importe": 13333.33,
+      "contrapartida_cuadra": true
+     },
+     {
+      "concepto": "Subvención de la financiación al 0 %",
+      "importe": 18363.98,
+      "contrapartida_cuadra": true
+     },
+     {
+      "concepto": "Descuento del factoring",
+      "importe": 9186.56,
+      "contrapartida_cuadra": true
+     },
+     {
+      "concepto": "Reparaciones del taller a maquinaria",
+      "importe": 1734.34,
+      "contrapartida_cuadra": true
+     },
+     {
+      "concepto": "Formación interna de la academia",
+      "importe": 0
+     }
+    ]
+   }
+  }
+ ],
+ "caja_y_existencias": {
+  "caja_grupo_inicio": 4891000,
+  "caja_grupo_final": 9434721.53,
+  "caja_final_por_sociedad": {
+   "matriz": 9157572.17,
+   "logistica": 12381.85,
+   "tienda": 0,
+   "sat": 5013.64,
+   "taller": 6510.3,
+   "maquinaria": 3190.37,
+   "academia": 11.58,
+   "financiera": 250000,
+   "inmobiliaria": 41.62
+  },
+  "existencias_inicio": 7178351.61,
+  "existencias_final": 4972661.69,
+  "unidades_final": 23317,
+  "comercial_final": {
+   "logistica": {
+    "demanda_unidades": 30596,
+    "servidas_unidades": 30539,
+    "ventas_perdidas_unidades": 57,
+    "cola_stock_unidades": 0,
+    "pedidos_pendientes": 0,
+    "compras_abiertas": 20,
+    "cobros_pendientes": 757,
+    "ventas_perdidas": 14811.7,
+    "nivel_de_servicio_pct": 99.8
+   },
+   "tienda": {
+    "demanda_unidades": 17104,
+    "servidas_unidades": 16923,
+    "ventas_perdidas_unidades": 181,
+    "cola_stock_unidades": 0,
+    "pedidos_pendientes": 0,
+    "compras_abiertas": 30,
+    "cobros_pendientes": 28,
+    "ventas_perdidas": 15922.83,
+    "nivel_de_servicio_pct": 98.9
+   }
+  },
+  "cola_servicios_maxima": 7,
+  "cola_servicios_final": {
+   "sat": {
+    "cola": 1,
+    "cola_minutos": 66
+   },
+   "taller": {
+    "cola": 0,
+    "cola_minutos": 0
+   }
+  },
+  "cola_stock_maxima_unidades": 74,
+  "alquileres_de_maquinaria_activos_final": 10,
+  "inmuebles_ocupados_final": 22,
+  "cartera_de_prestamos_final": 27712123.81,
+  "por_dia": [
+   {
+    "fecha": "2026-11-03",
+    "caja_grupo": 5034324.22,
+    "existencias": 7007778.46,
+    "unidades": 35084
+   },
+   {
+    "fecha": "2026-11-04",
+    "caja_grupo": 5223810.8,
+    "existencias": 6825396.34,
+    "unidades": 34042
+   },
+   {
+    "fecha": "2026-11-05",
+    "caja_grupo": 5408754.78,
+    "existencias": 6636863.93,
+    "unidades": 33094
+   },
+   {
+    "fecha": "2026-11-06",
+    "caja_grupo": 5610346.82,
+    "existencias": 6534697.55,
+    "unidades": 32789
+   },
+   {
+    "fecha": "2026-11-07",
+    "caja_grupo": 5690924.63,
+    "existencias": 6664654.13,
+    "unidades": 33211
+   },
+   {
+    "fecha": "2026-11-08",
+    "caja_grupo": 5695723.67,
+    "existencias": 6703406.78,
+    "unidades": 33577
+   },
+   {
+    "fecha": "2026-11-09",
+    "caja_grupo": 5691783.62,
+    "existencias": 7222847.09,
+    "unidades": 34945
+   },
+   {
+    "fecha": "2026-11-10",
+    "caja_grupo": 5752649.98,
+    "existencias": 7097683.86,
+    "unidades": 34567
+   },
+   {
+    "fecha": "2026-11-11",
+    "caja_grupo": 5959825.49,
+    "existencias": 6917981.81,
+    "unidades": 33756
+   },
+   {
+    "fecha": "2026-11-12",
+    "caja_grupo": 6154559.93,
+    "existencias": 6831165.45,
+    "unidades": 33420
+   },
+   {
+    "fecha": "2026-11-13",
+    "caja_grupo": 6319165.32,
+    "existencias": 6815390.81,
+    "unidades": 33510
+   },
+   {
+    "fecha": "2026-11-14",
+    "caja_grupo": 6399348.38,
+    "existencias": 6815596.75,
+    "unidades": 33570
+   },
+   {
+    "fecha": "2026-11-15",
+    "caja_grupo": 6397998.96,
+    "existencias": 6980939.49,
+    "unidades": 34147
+   },
+   {
+    "fecha": "2026-11-16",
+    "caja_grupo": 6471515.92,
+    "existencias": 7062893.18,
+    "unidades": 34424
+   },
+   {
+    "fecha": "2026-11-17",
+    "caja_grupo": 6598774.99,
+    "existencias": 6970935.42,
+    "unidades": 33872
+   },
+   {
+    "fecha": "2026-11-18",
+    "caja_grupo": 6720828.28,
+    "existencias": 6864321.81,
+    "unidades": 33330
+   },
+   {
+    "fecha": "2026-11-19",
+    "caja_grupo": 6872992.03,
+    "existencias": 6784133.21,
+    "unidades": 32916
+   },
+   {
+    "fecha": "2026-11-20",
+    "caja_grupo": 7049048.44,
+    "existencias": 6641698.92,
+    "unidades": 32347
+   },
+   {
+    "fecha": "2026-11-21",
+    "caja_grupo": 7147679.86,
+    "existencias": 6641680.12,
+    "unidades": 32339
+   },
+   {
+    "fecha": "2026-11-22",
+    "caja_grupo": 7152642.94,
+    "existencias": 6650763.18,
+    "unidades": 32525
+   },
+   {
+    "fecha": "2026-11-23",
+    "caja_grupo": 7217809.22,
+    "existencias": 6551254.26,
+    "unidades": 31910
+   },
+   {
+    "fecha": "2026-11-24",
+    "caja_grupo": 7369340.04,
+    "existencias": 6440082.22,
+    "unidades": 31388
+   },
+   {
+    "fecha": "2026-11-25",
+    "caja_grupo": 7523561.99,
+    "existencias": 6264777.78,
+    "unidades": 30588
+   },
+   {
+    "fecha": "2026-11-26",
+    "caja_grupo": 7620445,
+    "existencias": 6188859.07,
+    "unidades": 30255
+   },
+   {
+    "fecha": "2026-11-27",
+    "caja_grupo": 7778868.99,
+    "existencias": 6147106.19,
+    "unidades": 29900
+   },
+   {
+    "fecha": "2026-11-28",
+    "caja_grupo": 7863351.43,
+    "existencias": 6182999.71,
+    "unidades": 30076
+   },
+   {
+    "fecha": "2026-11-29",
+    "caja_grupo": 7879615.25,
+    "existencias": 6251502.03,
+    "unidades": 30414
+   },
+   {
+    "fecha": "2026-11-30",
+    "caja_grupo": 6908020.62,
+    "existencias": 6108574.09,
+    "unidades": 29677
+   },
+   {
+    "fecha": "2026-12-01",
+    "caja_grupo": 7066946.11,
+    "existencias": 5985402.95,
+    "unidades": 28995
+   },
+   {
+    "fecha": "2026-12-02",
+    "caja_grupo": 7120003.28,
+    "existencias": 5970029.4,
+    "unidades": 28617
+   },
+   {
+    "fecha": "2026-12-03",
+    "caja_grupo": 7318352.32,
+    "existencias": 5846378.29,
+    "unidades": 28017
+   },
+   {
+    "fecha": "2026-12-04",
+    "caja_grupo": 7526172.19,
+    "existencias": 5732192.5,
+    "unidades": 27654
+   },
+   {
+    "fecha": "2026-12-05",
+    "caja_grupo": 7607449.76,
+    "existencias": 5806684.59,
+    "unidades": 27979
+   },
+   {
+    "fecha": "2026-12-06",
+    "caja_grupo": 7527712.55,
+    "existencias": 5817242.43,
+    "unidades": 28195
+   },
+   {
+    "fecha": "2026-12-07",
+    "caja_grupo": 7467675.47,
+    "existencias": 5922782.35,
+    "unidades": 28872
+   },
+   {
+    "fecha": "2026-12-08",
+    "caja_grupo": 7486196.9,
+    "existencias": 5978813.77,
+    "unidades": 29067
+   },
+   {
+    "fecha": "2026-12-09",
+    "caja_grupo": 7311221.35,
+    "existencias": 5891589.76,
+    "unidades": 28455
+   },
+   {
+    "fecha": "2026-12-10",
+    "caja_grupo": 7467586.69,
+    "existencias": 5736976.74,
+    "unidades": 27694
+   },
+   {
+    "fecha": "2026-12-11",
+    "caja_grupo": 7636454.09,
+    "existencias": 5650741.56,
+    "unidades": 27333
+   },
+   {
+    "fecha": "2026-12-12",
+    "caja_grupo": 7720967.89,
+    "existencias": 5743040.68,
+    "unidades": 27681
+   },
+   {
+    "fecha": "2026-12-13",
+    "caja_grupo": 7749964.54,
+    "existencias": 5743676.42,
+    "unidades": 27814
+   },
+   {
+    "fecha": "2026-12-14",
+    "caja_grupo": 7842096.1,
+    "existencias": 5685913.29,
+    "unidades": 27410
+   },
+   {
+    "fecha": "2026-12-15",
+    "caja_grupo": 7958731.13,
+    "existencias": 5599196.85,
+    "unidades": 26931
+   },
+   {
+    "fecha": "2026-12-16",
+    "caja_grupo": 7919429.48,
+    "existencias": 5473835.45,
+    "unidades": 26151
+   },
+   {
+    "fecha": "2026-12-17",
+    "caja_grupo": 8082425.33,
+    "existencias": 5383892.65,
+    "unidades": 25654
+   },
+   {
+    "fecha": "2026-12-18",
+    "caja_grupo": 8053957.78,
+    "existencias": 5375251.6,
+    "unidades": 25384
+   },
+   {
+    "fecha": "2026-12-19",
+    "caja_grupo": 8164622.44,
+    "existencias": 5440126.02,
+    "unidades": 25708
+   },
+   {
+    "fecha": "2026-12-20",
+    "caja_grupo": 8079932.47,
+    "existencias": 5635467.36,
+    "unidades": 26472
+   },
+   {
+    "fecha": "2026-12-21",
+    "caja_grupo": 8154912.02,
+    "existencias": 5546415.58,
+    "unidades": 26100
+   },
+   {
+    "fecha": "2026-12-22",
+    "caja_grupo": 8310800.75,
+    "existencias": 5460526.87,
+    "unidades": 25625
+   },
+   {
+    "fecha": "2026-12-23",
+    "caja_grupo": 8477475.98,
+    "existencias": 5414616.99,
+    "unidades": 25366
+   },
+   {
+    "fecha": "2026-12-24",
+    "caja_grupo": 8654765.14,
+    "existencias": 5258900.36,
+    "unidades": 24568
+   },
+   {
+    "fecha": "2026-12-25",
+    "caja_grupo": 8823051.46,
+    "existencias": 5348742.73,
+    "unidades": 25068
+   },
+   {
+    "fecha": "2026-12-26",
+    "caja_grupo": 8937455.02,
+    "existencias": 5471244.93,
+    "unidades": 25859
+   },
+   {
+    "fecha": "2026-12-27",
+    "caja_grupo": 8927862.53,
+    "existencias": 5474060.43,
+    "unidades": 26047
+   },
+   {
+    "fecha": "2026-12-28",
+    "caja_grupo": 9030245.4,
+    "existencias": 5474135.08,
+    "unidades": 25742
+   },
+   {
+    "fecha": "2026-12-29",
+    "caja_grupo": 9208774.94,
+    "existencias": 5437639.19,
+    "unidades": 25680
+   },
+   {
+    "fecha": "2026-12-30",
+    "caja_grupo": 9404070.73,
+    "existencias": 5292284.86,
+    "unidades": 25160
+   },
+   {
+    "fecha": "2026-12-31",
+    "caja_grupo": 8508023.06,
+    "existencias": 5238649.78,
+    "unidades": 24924
+   },
+   {
+    "fecha": "2027-01-01",
+    "caja_grupo": 8685969.87,
+    "existencias": 5181367.28,
+    "unidades": 24809
+   },
+   {
+    "fecha": "2027-01-02",
+    "caja_grupo": 8737578.07,
+    "existencias": 5273514.11,
+    "unidades": 25281
+   },
+   {
+    "fecha": "2027-01-03",
+    "caja_grupo": 8850331.29,
+    "existencias": 5462370.11,
+    "unidades": 26047
+   },
+   {
+    "fecha": "2027-01-04",
+    "caja_grupo": 9028226.98,
+    "existencias": 5443824.1,
+    "unidades": 25822
+   },
+   {
+    "fecha": "2027-01-05",
+    "caja_grupo": 9225771.74,
+    "existencias": 5406497.82,
+    "unidades": 25515
+   },
+   {
+    "fecha": "2027-01-06",
+    "caja_grupo": 9333983.34,
+    "existencias": 5371477.32,
+    "unidades": 25308
+   },
+   {
+    "fecha": "2027-01-07",
+    "caja_grupo": 9500238.47,
+    "existencias": 5260068.17,
+    "unidades": 24912
+   },
+   {
+    "fecha": "2027-01-08",
+    "caja_grupo": 9514988.59,
+    "existencias": 5188838.72,
+    "unidades": 24260
+   },
+   {
+    "fecha": "2027-01-09",
+    "caja_grupo": 9589676.01,
+    "existencias": 5350166.87,
+    "unidades": 24824
+   },
+   {
+    "fecha": "2027-01-10",
+    "caja_grupo": 9558737.09,
+    "existencias": 5412455.74,
+    "unidades": 25345
+   },
+   {
+    "fecha": "2027-01-11",
+    "caja_grupo": 9600552.23,
+    "existencias": 5295365.25,
+    "unidades": 24567
+   },
+   {
+    "fecha": "2027-01-12",
+    "caja_grupo": 9630158.5,
+    "existencias": 5176889.56,
+    "unidades": 24006
+   },
+   {
+    "fecha": "2027-01-13",
+    "caja_grupo": 9782667.72,
+    "existencias": 5106075.43,
+    "unidades": 23548
+   },
+   {
+    "fecha": "2027-01-14",
+    "caja_grupo": 9931620.23,
+    "existencias": 5084753.92,
+    "unidades": 23406
+   },
+   {
+    "fecha": "2027-01-15",
+    "caja_grupo": 10015205.5,
+    "existencias": 4922506.39,
+    "unidades": 22750
+   },
+   {
+    "fecha": "2027-01-16",
+    "caja_grupo": 10085410.23,
+    "existencias": 5031771.44,
+    "unidades": 23175
+   },
+   {
+    "fecha": "2027-01-17",
+    "caja_grupo": 10098837.01,
+    "existencias": 5077046.65,
+    "unidades": 23369
+   },
+   {
+    "fecha": "2027-01-18",
+    "caja_grupo": 10012221.02,
+    "existencias": 5046886.62,
+    "unidades": 23318
+   },
+   {
+    "fecha": "2027-01-19",
+    "caja_grupo": 10168643.08,
+    "existencias": 4947182.19,
+    "unidades": 22717
+   },
+   {
+    "fecha": "2027-01-20",
+    "caja_grupo": 9469030.76,
+    "existencias": 4919606.17,
+    "unidades": 22369
+   },
+   {
+    "fecha": "2027-01-21",
+    "caja_grupo": 9616078.38,
+    "existencias": 4812178.78,
+    "unidades": 21828
+   },
+   {
+    "fecha": "2027-01-22",
+    "caja_grupo": 9722876.27,
+    "existencias": 4732562,
+    "unidades": 21412
+   },
+   {
+    "fecha": "2027-01-23",
+    "caja_grupo": 9764326.74,
+    "existencias": 4808651.14,
+    "unidades": 22144
+   },
+   {
+    "fecha": "2027-01-24",
+    "caja_grupo": 9735620.15,
+    "existencias": 4830701.64,
+    "unidades": 22594
+   },
+   {
+    "fecha": "2027-01-25",
+    "caja_grupo": 9795482.72,
+    "existencias": 4772708.64,
+    "unidades": 22258
+   },
+   {
+    "fecha": "2027-01-26",
+    "caja_grupo": 9966087.52,
+    "existencias": 4641256.03,
+    "unidades": 21645
+   },
+   {
+    "fecha": "2027-01-27",
+    "caja_grupo": 10161395.59,
+    "existencias": 4556884.78,
+    "unidades": 21294
+   },
+   {
+    "fecha": "2027-01-28",
+    "caja_grupo": 10311341.33,
+    "existencias": 4586147.81,
+    "unidades": 21414
+   },
+   {
+    "fecha": "2027-01-29",
+    "caja_grupo": 9482032.88,
+    "existencias": 4712347.59,
+    "unidades": 21712
+   },
+   {
+    "fecha": "2027-01-30",
+    "caja_grupo": 9586403.51,
+    "existencias": 4825247.03,
+    "unidades": 22376
+   },
+   {
+    "fecha": "2027-01-31",
+    "caja_grupo": 9434721.53,
+    "existencias": 4972661.69,
+    "unidades": 23317
+   }
+  ]
+ },
+ "un_dia_cualquiera": {
+  "fecha": "2026-11-16",
+  "dia_semana": "lunes",
+  "personas": 146,
+  "puestos_distintos": 75,
+  "tareas": 837,
+  "media_laborable": 837,
+  "por_app": {
+   "correo": 285,
+   "documentos": 259,
+   "hoja": 103,
+   "telefono": 57,
+   "banco": 53,
+   "erp": 48,
+   "crm": 32
+  },
+  "tipos_principales": [
+   {
+    "tipo": "Parte de trabajo",
+    "tareas": 133
+   },
+   {
+    "tipo": "Correo interno de coordinación",
+    "tareas": 123
+   },
+   {
+    "tipo": "Hoja de control diario",
+    "tareas": 86
+   },
+   {
+    "tipo": "Nota de llamada",
+    "tareas": 57
+   },
+   {
+    "tipo": "Conciliación bancaria (por tick)",
+    "tareas": 47
+   },
+   {
+    "tipo": "Correo de avance al responsable",
+    "tareas": 46
+   }
+  ],
+  "reacciones_a_la_economia": {
+   "eco_conciliar_banco": 47,
+   "eco_matricular": 20,
+   "eco_cerrar_aviso_sat": 14,
+   "eco_cerrar_reparacion": 5,
+   "eco_compras_aprobar": 5,
+   "eco_compras_retrasos": 4,
+   "eco_reclamar_cobros": 2,
+   "eco_seguir_morosos": 1
+  },
+  "economia": {
+   "ticks": 11,
+   "sucesos": 606,
+   "familias_principales": [
+    {
+     "familia": "Costes de cada venta en línea",
+     "sucesos": 228
+    },
+    {
+     "familia": "Ventas (tienda y mayoristas)",
+     "sucesos": 112
+    },
+    {
+     "familia": "Préstamos y compras financiadas",
+     "sucesos": 50
+    },
+    {
+     "familia": "Tesorería común (barridos y anticipos)",
+     "sucesos": 42
+    },
+    {
+     "familia": "Cursos de la academia",
+     "sucesos": 25
+    },
+    {
+     "familia": "Subvención de la financiación al 0 %",
+     "sucesos": 24
+    }
+   ],
+   "facturas_nuevas": 177,
+   "importe_facturado": 280988.88,
+   "movimientos_banco": 157,
+   "cobros_de_clientes": 20,
+   "pagos_a_proveedores": 0,
+   "caja_grupo_inicio": 6397998.96,
+   "caja_grupo_fin": 6471515.92,
+   "unidades_no_servidas": {
+    "logistica": 0,
+    "tienda": 5
+   }
+  },
+  "ejemplo_sat": {
+   "factura_a_las": "07:00",
+   "cierre": {
+    "fecha": "2026-11-16",
+    "hora": "08:11",
+    "puesto": "administración del servicio técnico"
+   },
+   "cobrada": true
+  },
+  "ejemplo_compra": {
+   "causa_a_las": "16:00",
+   "causa_fecha": "2026-11-16",
+   "tarea_a_las": "17:07",
+   "puesto": "director financiero",
+   "sociedad": "Tienda"
+  }
+ }
+}
