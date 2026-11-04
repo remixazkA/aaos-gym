@@ -114,6 +114,7 @@ Las cifras de este documento se cuentan por puesto, área y sociedad, nunca por 
 - El código pasó seis rondas de auditoría independiente y quedó cerrado salvo un detalle menor de robustez al reanudar, sin efecto en los datos. La tanda larga con el código auditado llegó al 31 de enero de 2027: 90 días simulados, todos cubiertos por este documento.
 - Las tareas que salen de los sucesos diarios de la semilla aún no están enlazadas con los documentos de la economía por intervalos: sus referencias no aparecen en el ERP ni en el banco de la tanda.
 - La conexión completa de Ariamir con las aplicaciones, sus permisos y sus efectos en una jornada todavía deben acreditarse.
+- Está en construcción un banco de herramientas para Ariamir sobre las jornadas simuladas; aún no tiene resultados.
 - Falta una campaña de medida que compare jornadas con y sin ayuda y registre la utilidad, los fallos y el coste de cómputo.
 - Se plantea colaborar con un centro de supercomputación para ampliar y repetir los experimentos; es una propuesta, no un resultado ya obtenido.
 
