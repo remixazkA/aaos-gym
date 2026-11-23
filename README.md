@@ -272,6 +272,22 @@ A simulated full-year run gave the following figures by company. Amounts include
 | Finance | €2,310,019.13 | €1,070,085.36 | €802,564.02 |
 | Real estate | €564,017.77 | €149,244.42 | €111,933.31 |
 
+## Fewer fixed templates (November 2026)
+
+After the three-month run, three changes to text generation went after the texts that end as the fixed template. Each change was measured with paired runs: same seed, same simulated days, same local model and the same code except for the change, leaving out in both runs the person-days where the model server failed. The changes are in review and are not part of the three-month run above.
+
+| Change | Measured | Sample | Templates before | Templates after |
+|---|---|---|---:|---:|
+| Each email reply sees the person's recent replies, so it stops repeating the same acknowledgement | 14 Nov 2026 | seed 10, simulated days 6 and 9 November (not used to tune the change), 1,710 texts | 110 (6.4%) | 77 (4.5%) |
+| A retry is told which placeholder was missing, and the counterpart's placeholder is marked as required | 14 Nov 2026 | seed 10, simulated days 3 to 5 November, 3,530 texts | 156 (4.4%) | 84 (2.4%) |
+| Six task types whose description was their own template text get a real description | 23 Nov 2026 | seed 11, simulated days 3 to 9 November, 5,308 texts | 164 (3.1%) | 69 (1.3%) |
+| Same change, second seed | 23 Nov 2026 | seed 12, simulated days 3 to 9 November, 5,192 texts | 108 (2.1%) | 72 (1.4%) |
+
+- **Replies:** templates for email replies went from 54 to 12 of 291; the other types stayed level (+9, within noise).
+- **Missing placeholders:** rejections for a missing counterpart placeholder went from 165 to 4 at the first attempt and from 57 to 0 at the retry.
+- **Descriptions:** rejections for duplicate texts went from 360 to 12 (seed 11) and from 270 to 21 (seed 12). Rejections for short texts and for a missing reference placeholder rose (122 to 136 and 18 to 30 with seed 11; 99 to 173 and 12 to 40 with seed 12); the retry absorbs them, and the final share of templates still fell.
+- Each row compares against the code just before that change, so the rows are steps of one chain, not independent effects. These short runs are not a repeat of the three-month run, whose 13% of templates was measured with the earlier code.
+
 ## Privacy and red lines
 
 The people, organisations and data in AAOS are synthetic. Ariamir is designed to help with work, not to monitor people.
@@ -288,6 +304,7 @@ The figures in this document are counted by role, area and company, never by per
 
 - The simulated group, the working days, text generation and the tick-based economy are built, with automated tests.
 - The code went through six rounds of independent audit and was closed except for a minor robustness detail when resuming, with no effect on the data. The long run with the audited code reached 31 January 2027; this document covers all its days.
+- Three changes to text generation cut the share of fixed templates in paired runs (see "Fewer fixed templates"); they are in review and not yet in a long run.
 - Tasks that come from the seed's daily events are not yet linked to the documents of the tick-based economy: their references do not appear in the run's ERP or bank.
 - Ariamir's full connection to the apps, its permissions and its effects over a working day still have to be verified.
 - A tool bench for Ariamir on the simulated days is under construction; it has no results yet.
